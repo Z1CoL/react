@@ -1,5 +1,16 @@
 export function head(header) {}
 
+export function Buttons(primaryButton) {
+  return (
+    <div>
+      <button>
+        <img className="w-full h-full" src={header.buttonIcon} alt="" />
+      </button>
+      <button></button>
+    </div>
+  );
+}
+
 export function Videos(props) {
   return (
     <div className="flex ml-[12px] mb-17 h-[347]">
