@@ -1,6 +1,6 @@
 import { Videos } from "@/components/props";
 import Image from "next/image";
-import { Buttons } from "@/components/props";
+#3c82f6
 
 export default function Home() {
   return (
